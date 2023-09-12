@@ -1,0 +1,199 @@
+@media (max-width:450px) {
+
+  .menu_dive {
+      display: none;
+    }
+
+    .nav_logos{
+        background-color: grey;
+        /* display: flex; */
+        /* gap: 5rem; */
+    }
+
+    .nav_logo{
+      position: fixed;
+        display: block;
+
+    }
+
+    .wrong_nav{
+        margin-top: 4rem;
+        display: none;
+        padding: 2rem;
+    }
+ .theul{
+    width: 70%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-left: 35%;
+    
+ }
+
+ .theul li {
+    list-style-type: none;
+    margin-bottom: 2rem;
+    }
+
+ .theul li a {
+    /* border: 2px solid rgb(240, 0, 0); */
+    padding: 1.5rem;
+border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.theul li a:hover{
+    background-color: rgb(118, 38, 248);
+    color: white;
+}
+
+    /* ------------------------------- */
+
+    .div_logo{
+        display: none;
+    }
+
+    
+    .slide{
+          background-size: contain;
+      
+    } 
+
+    .heading_1 .About{
+        font-size: 4rem;
+       
+    }
+
+    .heading_1 p{
+        letter-spacing: 0.5px;
+        line-height: 1.8rem;
+        margin: 2rem;
+    }
+
+    .heading_2 .servics{
+        font-size: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .courses{
+        flex-direction: column;
+    }
+
+    .heading_2 p{
+        font-size: 1.5rem;
+       
+    }
+    
+.box2{
+    width: 85%;
+    height: max-content;
+    margin-left: 0rem;
+    margin: 3rem;
+}
+
+.text2 {
+    margin-left: 0rem;
+}
+
+.text2 button{ 
+    margin-bottom: 3rem; 
+}
+
+.box2 img{
+    margin-left: 1.5rem;
+    
+}
+
+
+.comments_box{
+    flex-direction: column;
+    margin: 0rem;
+    
+}
+.comment img{
+    margin-left: 1.5em;
+}
+.comment p{
+    margin-left: 1.5em; 
+}
+
+.comment .name{
+    margin-top: 0.3rem;
+    margin-bottom: 0rem;
+
+}
+.comment{
+    width: 85%;
+    margin: 2.7rem;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 8px rgb(116, 112, 112);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading_5 .Reviews{
+    font-size: 4rem;
+}
+.heading_5 p{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.heading_6 .partner{
+    font-size: 3rem;
+    line-height: 30px;
+}
+
+.heading_6 p{
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+.placement_box{
+    display: flex;
+    
+    margin: 13rem;
+    flex-direction: column;
+}
+
+.placement{
+    margin-bottom: 3rem;
+}
+ 
+.placement_partner button{
+    margin-left: 25%;
+}
+
+.suncontact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info1 {
+    width: 100%;
+}
+
+.info2 h2 {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+.info3 h2 {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+}
+
+.maindiv8 {
+    margin-top: 4rem;
+}
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,431 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    width: 90%;
+}
+
+a,
+p,
+li,
+ul {
+    font-size: 1.6rem;
+
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2.0rem;
+}
+
+#wrapper {
+    overflow: hidden;
+}
+
+/* -------------------------------------------------- */
+.nav_logo{
+    /* display: flex; */
+    display: none;
+}
+.menu_logo{
+    width: 10%;
+    /* height: 10rem; */
+}
+
+.menu_logo img{
+    width: 100%;
+}
+
+.wrong_logo{
+    width: 7%;
+    /* height: 10rem; */
+}
+
+.wrong_logo img{
+    width: 100%;
+}
+
+/* ------------------------------------------ */
+nav{
+    width: 100%;
+}
+
+.menu_dive{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgb(175, 182, 180);
+
+}
+.div_logo{
+    width: 95%;
+    margin: 1rem;
+}
+
+.mainul{
+    width: 75%;
+    margin-top: 1.5rem;
+    display: flex;
+
+}
+
+.mainul li {
+list-style-type: none;
+margin: 1rem;
+
+} 
+
+.mainul li a {
+    border-radius: 5px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.mainul li a:hover{
+    background-color: rgb(118, 38, 248);
+    color: white;
+}
+
+/* ------------------------------------------- */
+
+.slide{
+    width: 100%;
+    height: 70vh;
+    background-image: url(images/web-development-and-programming-concept-3d-illustration-icon-composition-with-page-settings-at-computer-screen-cloud-computing-coding-php-java-script-illustration-for-modern-we.jpg);
+    background-size: contain;
+
+}
+
+/* ------------------------------------------------ */
+
+.heading_1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5rem 0rem;
+}
+
+.heading_1 .About{
+    font-weight: 900;
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+
+.heading_1 p{
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+.heading_1 button{
+    border: none;
+    padding: 1rem 3rem;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+ font-size: 2rem;
+    margin: 2rem 0rem;
+    background-color: red;
+}
+
+.heading_1 button:hover{
+    background-color: rgb(237, 153, 153);
+    color: red;
+}
+
+/* ---------------------------------------------- */
+
+.heading_2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8rem 0rem;
+}
+
+.heading_2 .servics{
+    font-weight: 900;
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+
+.heading_2 p{
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.courses{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9rem;
+}
+
+.box2{
+    width: 21%;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3rem;
+  
+    border-radius: 2rem;
+    box-shadow: 0 0 8px rgb(116, 112, 112);
+   
+}
+
+.text2 {
+    width:90%;
+    height: auto;
+}
+
+.box2 img{
+    width:90%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.box2 h3{
+margin-left: 3.3rem;
+margin-bottom: 2rem;
+margin-top: 0.6rem;
+}
+.box2 p{
+    margin-left: 3rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.box2 button{
+    background-color: rgb(251, 156, 54);
+    padding: 1.5rem 10rem;
+    border: none;
+    border-radius: 9px;
+    margin-left: 2.7rem;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+
+}
+
+.box2 button:hover{
+    background-color:rgb(157, 132, 98);
+    color: black;
+
+}
+
+/* ------------------------------------------- */
+
+.heading_5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8rem 0rem;
+}
+
+.heading_5 .Reviews{
+    font-weight: 900;
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+
+.heading_5 p{
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+/* ------------------------------------------ */
+
+.comment{
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comment .name{
+    font-size: 2rem;
+    margin-left: 30%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+
+}
+
+.comments_box{
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+/* ------------------------------------ */
+
+.heading_6{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8rem 0rem;
+}
+
+.heading_6 .partner{
+    font-weight: 900;
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+
+.heading_6 p{
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.placement_box{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 8rem;
+}
+
+.placement_partner button{
+   
+    border: none;
+    padding: 1rem 3rem;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+ font-size: 2.5rem;
+    margin-left: 43%;
+    background-color: red;
+}
+
+.placement_partner button:hover{
+    background-color: rgb(237, 153, 153);
+    color: red;
+}
+
+/* ---------------------------------------- */
+.contact {
+    background-color: rgb(91, 35, 201);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+    ;
+    color: white;
+    padding: 3rem;
+    margin-top: 10rem;
+}
+
+.info1 {
+    width: 20%;
+
+
+}
+
+.info1 p {
+    padding-bottom: 1rem;
+}
+
+.info1 h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.info2 p {
+    padding-bottom: 1rem;
+}
+
+.info2 p:hover {
+    color: rgb(47, 240, 121);
+}
+
+.info2 h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.info3 p {
+    padding-bottom: 1rem;
+}
+
+.info3 h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.info3 input {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.info3 button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.5rem;
+    background-color: red;
+    color: white;
+}
+
+.mobileno {
+    padding-left: 5rem;
+}
+
+.suncontact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links img {
+    margin: 2rem;
+    width: 10%;
+
+}
+
+.Rights {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
